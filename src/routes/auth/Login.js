@@ -1,7 +1,7 @@
 import './auth.css';
 import Button from '../../components/general/Button';
 import Input from '../../components/general/Input';
-import { faUser, faKey } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faKey, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 export default function Login({ username, password, setUsername, setPassword }) {
   return (
@@ -12,7 +12,7 @@ export default function Login({ username, password, setUsername, setPassword }) 
       {/* <Button label="Sign In" icon="key" className="squareButton" />
        */}
        <div className="button-container">
-        <Button label="Sign In" icon="key" className="squareButton" />
+        <Button label="Sign In" icon={faPlus} className="squareButton" />
       </div>
     </div>
   )

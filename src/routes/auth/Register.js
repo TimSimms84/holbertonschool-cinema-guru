@@ -10,7 +10,7 @@ export default function Register({username, password, setUsername, setPassword})
       <Input type="text" label="Username" value={username} setValue={setUsername} icon={faUser} />
       <Input type="password" label="Password" value={password} setValue={setPassword} icon={faKey}/>
       <div className="button-container">
-        <Button label="Sign In" icon="key" className="squareButton" />
+        <Button label="Sign Up" icon={faUser} className="squareButton" />
       </div>
     </div>
   )
