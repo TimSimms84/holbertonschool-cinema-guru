@@ -11,10 +11,10 @@ const Dashboard = ({ userUsername, setIsLoggedIn }) => {
       <Header userUsername={userUsername} setIsLoggedIn={setIsLoggedIn} />
       <SideBar />
       <Routes>
-      {/* <Route path="/" element={<HomePage />} /> */}
-        {/* <Route path="/home" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
         <Route path="/favorites" element={<Favorites />} />
-        <Route path="/watchlater" element={<WatchLater />} /> */}
+        <Route path="/watchlater" element={<WatchLater />} />
       </Routes>
     </BrowserRouter>
   )
