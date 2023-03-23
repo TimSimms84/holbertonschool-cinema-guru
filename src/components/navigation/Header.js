@@ -1,6 +1,6 @@
 // src/components/navigation/Header.js
 import React from 'react';
-import './Navigation.css';
+import './navigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
